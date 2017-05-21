@@ -1,0 +1,11 @@
+Main parts of marionette
+    - router
+    - controller
+    - application
+
+Objectives:
+    - Display a list of books categories
+    - Select a category and display the related books
+    - Present a description, price and other important details of the books
+    - Add books to the shopping cart
+    - display the shoppping cart items
