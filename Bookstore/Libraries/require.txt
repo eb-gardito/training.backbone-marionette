@@ -1,0 +1,5 @@
+	"underscore": "1.8.3",
+	"jQuery.js": "2.1.4",
+	"backbone": "1.0.0",
+        "backbone.marionette": "1.8.8",
+bootstrap http://bootstrapdocs.com/v2.0.2/docs/

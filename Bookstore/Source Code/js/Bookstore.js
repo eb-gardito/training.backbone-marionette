@@ -1,4 +1,4 @@
-var bookStoreApp = new Backbone.Marionette.Application();
+var BookStoreApp = new Backbone.Marionette.Application();
 var BookStoreController = Backbone.Marionette.Controller.extend({
      displayBooks : function (){
        console.log("I will display books...");
@@ -13,7 +13,7 @@ var BookStoreRouter = Backbone.Marionette.AppRouter.extend({
 
 BookStoreApp.addInitializer(function () {
     var bookStoreController = new BookStoreController();
-    var bookStoreRouter = new BookStoreRouter({controller:controller});
+    var bookStoreRouter = new BookStoreRouter({controller:bookStoreController});
     console.log('Message from the addInitializer Method');
 });
 
